@@ -18,8 +18,11 @@ from aiohttp import ClientSession
 from pyromod import listen
 from subprocess import getstatusoutput
 
-from pyrogram import Client, filters
+from pyromod import listen
 from pyrogram.types import Message
+
+from pyrogram import Client, filters
+from pyrogram.types import user, Message
 from pyrogram.errors import FloodWait
 from pyrogram.errors.exceptions.bad_request_400 import StickerEmojiInvalid
 from pyrogram.types.messages_and_media import message
